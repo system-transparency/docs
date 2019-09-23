@@ -1,2 +1,6 @@
-# Initial page
+---
+description: An introduction for beginners
+---
+
+# Demo
 
