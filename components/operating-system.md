@@ -2,7 +2,7 @@
 description: Debian and NixOS
 ---
 
-# operating-system
+# Operating Systems
 
 
 

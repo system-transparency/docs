@@ -2,7 +2,7 @@
 description: Linux as Bootloader
 ---
 
-# bootloader
+# Bootloader
 
 
 
