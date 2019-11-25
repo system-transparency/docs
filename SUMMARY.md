@@ -14,5 +14,4 @@
   * [6.-immutable-infrastructure-optional](manifest/6.-immutable-infrastructure-optional.md)
   * [7.-certificate-transparency-optional](manifest/7.-certificate-transparency-optional.md)
 * [news](news.md)
-* [SUMMARY](summary.md)
 
