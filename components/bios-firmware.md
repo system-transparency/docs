@@ -2,9 +2,7 @@
 description: Open Source Firmware
 ---
 
-# BIOS Firmware
+# bios-firmware
 
-![](../.gitbook/assets/coreboot_combo.svg)
-
-The whole technology stack needs to be reproducible to some extent. That's why 
+The whole technology stack needs to be reproducible to some extent. That's why
 
