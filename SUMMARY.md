@@ -10,6 +10,10 @@
 
 ## Operator guide
 
+* [Building a BootBall](operator-guide/building-a-bootball/README.md)
+  * [Building Kernel and Initramfs for BootBall](operator-guide/building-a-bootball/building-kernel-and-initramfs-for-bootball.md)
+  * [Writing STconfig.json](operator-guide/building-a-bootball/writing-the-stconfig.json.md)
+  * [Packing and Signing BootBall](operator-guide/building-a-bootball/packing-and-signing-bootball.md)
 * [How to set up the netboot server?](operator-guide/how-to-set-up-the-netboot-server.md)
 
 ## Manifest <a id="manifest-1"></a>
