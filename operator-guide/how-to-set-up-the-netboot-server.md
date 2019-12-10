@@ -24,17 +24,17 @@ description: A short introduction about server-side requirements
 
  
 
-* [ ] Create a hash of the bootball artifact by using bootball config tool and split it after 32 bytes with a dot.
+Create a hash of the bootball artifact by using bootball config tool and split it after 32 bytes with a dot. 
 
-```bash
-$ 03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77
-```
+{% hint style="success" %}
+03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77
+{% endhint %}
 
 {% hint style="danger" %}
 Because of a 63 byte CN and sub-domain name length restriction by let's encrypt we are using a shorter domain pointing to the same A record IP address in the certificate. Also we split up the hash after the 32 byte with a dot.
 {% endhint %}
 
-* [ ] Add an A record to your target host inside by using the domain name hash as subdomain.
+Add an A record to your target host inside by using the domain name hash as subdomain.
 
 {% code title="DNS records" %}
 ```bash
@@ -43,7 +43,7 @@ A    03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev 
 ```
 {% endcode %}
 
-* [ ] Download your let's encrypt tooling for the bootball artifacts. In our example we make use of [LEGO](https://github.com/go-acme/lego/releases) to generate a certificate based on:
+Download your let's encrypt tooling for the bootball artifacts. In our example we make use of [LEGO](https://github.com/go-acme/lego/releases) to generate a certificate based on:
 
 #### Common Name: test.dev
 
@@ -51,7 +51,7 @@ A    03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev 
 
 {% code title="Run lego" %}
 ```bash
-$ lego -d test.dev -d 03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev -a -m your@email.com --pem --path certs --http run
+lego -d test.dev -d 03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev -a -m your@email.com --pem --path certs --http run
 ```
 {% endcode %}
 
