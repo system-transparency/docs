@@ -31,7 +31,7 @@ $ openssl dgst -sha256 -hex $artifact | awk '{print $2}'
 ```
 
 {% hint style="danger" %}
-Because of a 64byte domain name length restriction by let's encrypt we are using a shorter domain pointing to the same A record IP address in the certificate.
+Because of a 63 byte CN and sub-domain name length restriction by let's encrypt we are using a shorter domain pointing to the same A record IP address in the certificate. Also we split up the hash after the 32 byte with a dot.
 {% endhint %}
 
 * [ ] Add an A record to your target host inside by using the domain name hash as subdomain.
@@ -39,7 +39,7 @@ Because of a 64byte domain name length restriction by let's encrypt we are using
 {% code title="DNS records" %}
 ```bash
 A    st.test.dev    X.X.X.X
-A    03b650a736663896177551f961dca54879efd480cb8717f0a35637b863930a77.test.dev    X.X.X.X
+A    03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev    X.X.X.X
 ```
 {% endcode %}
 
@@ -58,7 +58,7 @@ $ curl -X POST "http://localhost:2019/load" \
 							"listen": [":443"],
 							"routes": [
 								{
-									"match": [{"host": ["st.test.dev", "03b650a736663896177551f961dca54879efd480cb8717f0a35637b863930a77.test.dev"]}],
+									"match": [{"host": ["st.test.dev", "03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev"]}],
 									"handle": [{
 										"handler": "file_server",
 										"root": "/var/www"
