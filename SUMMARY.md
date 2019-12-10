@@ -22,3 +22,8 @@
 * [6. Immutable Infrastructure \(optional\)](manifest-1/6.-immutable-infrastructure-optional.md)
 * [7. Certificate Transparency \(optional\)](manifest-1/7.-certificate-transparency-optional.md)
 
+## Documentation
+
+* [STConfig Tool](documentation/stconfig-tool.md)
+* [STConfig & BootBall](documentation/stconfig-and-bootball.md)
+
