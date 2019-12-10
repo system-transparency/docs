@@ -36,7 +36,7 @@ $ openssl dgst -hex -rmd160 $artifact | awk '{print $2}'
 
 * [ ] Add an A record to your target host inside by using the domain name hash as subdomain.
 
-{% code title="DNS zone" %}
+{% code title="DNS record" %}
 ```bash
 A    91666a26e8c81f85db3776431215b0677b48373e.test.dev    X.X.X.X
 ```
