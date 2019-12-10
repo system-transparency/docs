@@ -42,11 +42,36 @@ A    91666a26e8c81f85db3776431215b0677b48373e.test.dev    X.X.X.X
 ```
 {% endcode %}
 
-* [ ] Download and make caddy v2 server executable.
+* [ ] Download your let's encrypt tooling + webserver your choice and set it up as file server for the bootball artifacts. In our example we make use of [caddy v2](https://github.com/caddyserver/caddy) file server module + https. 
 
+{% code title="Execute on host with running caddy v2" %}
 ```bash
-$ sudo chmod +x lego
-$ sudo setcap 'cap_net_bind_service=+ep' lego
+$ curl -X POST "http://localhost:2019/load" \
+    -H "Content-Type: application/json" \
+    -d @- << EOF
+    {
+			"apps": {
+				"http": {
+					"servers": {
+						"myserver": {
+							"listen": [":443"],
+							"routes": [
+								{
+									"match": [{"host": ["91666a26e8c81f85db3776431215b0677b48373e.test.dev"]}],
+									"handle": [{
+										"handler": "file_server",
+										"root": "/var/www"
+									}]
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+EOF
 ```
+{% endcode %}
 
-* [ ] 
+If you add more artifacts just match more domain names.
+
