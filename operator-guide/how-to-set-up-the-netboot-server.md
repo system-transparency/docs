@@ -24,10 +24,10 @@ description: A short introduction about server-side requirements
 
  
 
-* [ ] Create a hash of the bootball artifact which we will use as domain name hash.
+* [ ] Create a hash of the bootball artifact by using bootball config tool and split it after 32 bytes with a dot.
 
 ```bash
-$ openssl dgst -sha256 -hex $artifact | awk '{print $2}'
+$ 03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77
 ```
 
 {% hint style="danger" %}
@@ -43,36 +43,17 @@ A    03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev 
 ```
 {% endcode %}
 
-* [ ] Download your let's encrypt tooling + webserver your choice and set it up as file server for the bootball artifacts. In our example we make use of [caddy v2](https://github.com/caddyserver/caddy) file server module + https. 
+* [ ] Download your let's encrypt tooling for the bootball artifacts. In our example we make use of [LEGO](https://github.com/go-acme/lego/releases) to generate a certificate based on:
 
-{% code title="Execute on host with running caddy v2" %}
+#### Common Name: test.dev
+
+#### DNS Name: 03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev
+
+{% code title="Run lego" %}
 ```bash
-$ curl -X POST "http://localhost:2019/load" \
-    -H "Content-Type: application/json" \
-    -d @- << EOF
-    {
-			"apps": {
-				"http": {
-					"servers": {
-						"myserver": {
-							"listen": [":443"],
-							"routes": [
-								{
-									"match": [{"host": ["st.test.dev", "03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev"]}],
-									"handle": [{
-										"handler": "file_server",
-										"root": "/var/www"
-									}]
-								}
-							]
-						}
-					}
-				}
-			}
-		}
-EOF
+$ lego -d test.dev -d 03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77.test.dev -a -m your@email.com --pem --path certs --http run
 ```
 {% endcode %}
 
-If you add more artifacts just match more domain names.
+If you add more artifacts just match more domain names. The certificates can be found in the certs directory.
 
