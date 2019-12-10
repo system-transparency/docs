@@ -24,6 +24,7 @@
 
 ## Documentation
 
+* [STBoot](documentation/stboot.md)
 * [STConfig Tool](documentation/stconfig-tool.md)
 * [STConfig & BootBall](documentation/stconfig-and-bootball.md)
 
