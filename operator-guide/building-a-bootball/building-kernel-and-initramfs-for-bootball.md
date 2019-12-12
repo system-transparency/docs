@@ -1,10 +1,10 @@
-# Building Kernel and Initramfs for BootBall
+# Building Kernel and Initramfs
 
 ## Prerequisites
 
 * Linux system \(tested with Ubuntu 18.04.2 LTS \(Bionic Beaver\) / Kernel 4.15.0-47-generic
 * docker for building the reproducible debian buster kernel and initramfs.
-* Clone of system-transparency and u-root repository
+* Clone of system-transparency repository
 
 ##  Building debian kernel and initramfs with docker
 
