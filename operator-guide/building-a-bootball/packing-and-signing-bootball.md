@@ -14,7 +14,7 @@ We gathered everything necessary to build the BootBall. Here is what you have to
 
 #### Pack it!
 
-Now you'll need the stconfig tool. If you haven't installed it yet, do so with the provided script.
+Now you'll need the STConfig-Tool. If you haven't installed it yet, do so with the provided script.
 
 ```text
 ./system-transparency/stconfig/install_stconfig.sh
