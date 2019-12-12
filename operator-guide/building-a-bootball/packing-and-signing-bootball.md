@@ -36,7 +36,7 @@ Next you have to sign the Boot.ball file. This is also done with a subcommand of
 stconfig sign <path/to/boot.ball> <path/to/your/privkey.key> <path/to/your/key.cert>
 ```
 
-At the moment, you need to sign the boot.ball with THREE valid and distinct keys. So repeat the process with other keys and certs generated earlier.
+At the moment, you need to sign the boot.ball with THREE valid and distinct keys. So repeat the process with other keys and matching certs generated earlier.
 
 #### Push it!
 
