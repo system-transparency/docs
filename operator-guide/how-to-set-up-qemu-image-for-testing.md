@@ -42,7 +42,7 @@ Now u-root with stboot support should be installed. Create the initramfs for the
 ./system-transparency/stboot/make_initramfs.sh
 ```
 
-4.
+#### 4.
 
 Your "production server" or in this case you QEMU image needs an IP configuration. For this purpose we generate a file called hostvars.json. We do so by using a script:
 
@@ -56,7 +56,7 @@ This file needs to me moved in the SysLinux image as well. And system-transparen
 ./system-transparency/deploy/image/mv_hostvars_to_image.sh
 ```
 
-5.
+#### 5.
 
 Before executing QEMU we need to merge the initramfs into the SysLinux image. Worry not, system-transparency repository provides a script for that as well:
 
@@ -64,5 +64,14 @@ Before executing QEMU we need to merge the initramfs into the SysLinux image. Wo
 ./system-transparecy/deploy/image/mv_initrd_to_image.sh
 ```
 
+#### 6.
 
+Okay, now it is time to run the image in QEMU. Maybe u guessed it, we also have a script for that:
+
+```text
+./system-transparency/start_qemu_image.sh
+```
+
+If everything works correctly, QEMU starts up, loads the image and you'll see some ASCII art STBoot logo.  
+At this point, you can press CTRL+C and interrupt the boot process of STBoot. This will drop you into the shell of the SysLinux / u-root initramfs.
 
