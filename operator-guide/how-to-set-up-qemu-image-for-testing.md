@@ -14,7 +14,7 @@
 
 ## Idea
 
-This tutorial is just for the sake of testing the boot process of your BootBall. QEMU is utilized to simulate your production server. A SysLinux image with u-root initramfs and stboot bootloader is loaded inside QEMU. Here it will be shown how to build the SysLinux image and u-root initramfs with stboot bootloader. 
+This tutorial is just for the sake of testing the boot process of your BootBall. QEMU is utilized to simulate your production server. A SysLinux image with u-root initramfs and stboot bootloader is loaded inside QEMU. The QEMU starts the SysLinux and initiate the boot process with STBoot. STBoot will download the BootBall deployed on your provisioning server. Here it will be shown how to build the SysLinux image and u-root initramfs with stboot bootloader. 
 
 ### Step by step
 
