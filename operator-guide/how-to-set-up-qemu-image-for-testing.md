@@ -18,11 +18,15 @@ This tutorial is just for the sake of testing the boot process of your BootBall.
 
 ### Step by step
 
+#### 1.
+
 At first we want to build the SysLinux image. For that, system-transparency provides a script:
 
 ```text
 ./system-transparency/deploy/image/create_image.sh
 ```
+
+#### 2.
 
 Second step is to build the initramfs with u-root. Make sure u-root is installed, otherwise run:
 
@@ -30,13 +34,29 @@ Second step is to build the initramfs with u-root. Make sure u-root is installed
 ./system-transparency/stboot/install-u-root.sh
 ```
 
+#### 3.
+
 Now u-root with stboot support should be installed. Create the initramfs for the QEMU image with:
 
 ```text
 ./system-transparency/stboot/make_initramfs.sh
 ```
 
-//\*\*TO DO: Set up netvars.json
+4.
+
+Your "production server" or in this case you QEMU image needs an IP configuration. For this purpose we generate a file called hostvars.json. We do so by using a script:
+
+```text
+./system-transparency/stboot/create_hostvars.sh
+```
+
+This file needs to me moved in the SysLinux image as well. And system-transparency provide a script for that as well:
+
+```text
+./system-transparency/deploy/image/mv_hostvars_to_image.sh
+```
+
+5.
 
 Before executing QEMU we need to merge the initramfs into the SysLinux image. Worry not, system-transparency repository provides a script for that as well:
 
