@@ -6,7 +6,7 @@ description: How to start with system transparency
 
 Welcome to System Transparency!
 
-![System Transparency demo](https://asciinema.org/a/265676.svg)
+{% embed url="https://asciinema.org/a/265676" %}
 
 ### Checkout the repository
 
