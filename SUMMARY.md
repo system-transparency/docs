@@ -2,7 +2,7 @@
 
 * [News](README.md)
 
-## Overview
+## Tech Stack Overview <a id="overview"></a>
 
 * [BIOS firmware](overview/bios-firmware.md)
 * [Bootloader](overview/bootloader.md)

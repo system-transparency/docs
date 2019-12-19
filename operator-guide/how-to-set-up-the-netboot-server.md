@@ -18,7 +18,7 @@ description: A short introduction about server-side requirements
 
 ## How to deploy?
 
-![](../.gitbook/assets/netboot%20%282%29.png)
+![](../.gitbook/assets/netboot%20%281%29.png)
 
 
 
