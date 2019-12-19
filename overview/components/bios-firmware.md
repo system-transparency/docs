@@ -4,7 +4,7 @@ description: Open Source Firmware
 
 # BIOS firmware
 
-![SPI NOR flash with BIOS firmware](../.gitbook/assets/img_0655.jpg)
+![SPI NOR flash with BIOS firmware](../../.gitbook/assets/img_0655.jpg)
 
 **B**asic **I**nput **O**utput System ist an old term before the 21th century. The BIOS was used to initialize the hardware and bring it to working state for the operating system. Nowadays it is called firmware as a generalized description. There are different kinds of firmware, you can find many listed on the [Open Source Firmware Conference ](https://www.osfc.io)homepage.
 

@@ -4,7 +4,7 @@ description: Linux as Bootloader
 
 # Bootloader
 
-![Linux kernel as bootloader/UEFI BDS replacement](../.gitbook/assets/linuxboot_info.png)
+![Linux kernel as bootloader/UEFI BDS replacement](../../.gitbook/assets/linuxboot_info.png)
 
 The [LinuxBoot](https://www.linuxboot.org) project provides tooling and a bootloader implementation as initramfs in Golang. In combination with the Linux kernel, the bootloader moves from a standalone implementation to a fully featured Linux environment. The development happens not in a firmware environment anymore.
 
@@ -19,7 +19,7 @@ LinuxBoot has the following advantages over the most bootloader implementations:
 
 System Transparency has its reference implementation as part of the LinuxBoot bootloader in the [u-root project.](https://github.com/u-root/u-root/tree/stboot) After the firmware is loaded, the bootloader is invoked:
 
-![LinuxBoot with stboot boot flow](../.gitbook/assets/system-transparency-bootloader%20%281%29.svg)
+![LinuxBoot with stboot boot flow](../../.gitbook/assets/system-transparency-bootloader%20%281%29.svg)
 
 
 

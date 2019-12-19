@@ -1,12 +1,22 @@
 # Table of contents
 
-* [News](README.md)
+* [Getting Started](README.md)
 
 ## Tech Stack Overview <a id="overview"></a>
 
-* [BIOS firmware](overview/bios-firmware.md)
-* [Bootloader](overview/bootloader.md)
-* [Operating Systems](overview/operating-system.md)
+* [Concept and Ideas](overview/concept-and-ideas.md)
+* [Manifest](overview/manifest/README.md)
+  * [Provisioning Ritual](overview/manifest/1.-provisioning-ritual.md)
+  * [Tamper Resistance](overview/manifest/3.-tamper-resistance.md)
+  * [Integrity Protected Firmware](overview/manifest/2.-integrity-protected-firmware.md)
+  * [Reproducible Builds](overview/manifest/4.-reproducible-builds.md)
+  * [Platform Attestation](overview/manifest/5.-platform-attestation.md)
+  * [Immutable Infrastructure](overview/manifest/6.-immutable-infrastructure-optional.md)
+  * [Binary Transparency](overview/manifest/7.-certificate-transparency-optional.md)
+* [Components](overview/components/README.md)
+  * [BIOS firmware](overview/components/bios-firmware.md)
+  * [Bootloader](overview/components/bootloader.md)
+  * [Operating Systems](overview/components/operating-system.md)
 
 ## Operator guide
 
@@ -17,16 +27,6 @@
 * [How to set up qemu image for testing](operator-guide/how-to-set-up-qemu-image-for-testing.md)
 * [How to set up production server](operator-guide/how-to-set-up-production-server.md)
 * [How to set up the netboot server?](operator-guide/how-to-set-up-the-netboot-server.md)
-
-## Manifest <a id="manifest-1"></a>
-
-* [1. Provisioning Ritual](manifest-1/1.-provisioning-ritual.md)
-* [2. Integrity Protected Firmware](manifest-1/2.-integrity-protected-firmware.md)
-* [3. Tamper Resistance](manifest-1/3.-tamper-resistance.md)
-* [4. Reproducible Builds](manifest-1/4.-reproducible-builds.md)
-* [5. Platform Attestation](manifest-1/5.-platform-attestation.md)
-* [6. Immutable Infrastructure \(optional\)](manifest-1/6.-immutable-infrastructure-optional.md)
-* [7. Certificate Transparency \(optional\)](manifest-1/7.-certificate-transparency-optional.md)
 
 ## Documentation
 
