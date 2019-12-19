@@ -21,5 +21,5 @@ System Transparency has its reference implementation as part of the LinuxBoot bo
 
 ![LinuxBoot with stboot boot flow](../../.gitbook/assets/system-transparency-bootloader%20%281%29.svg)
 
-
+The main functionality provided to deliver transparency to end-users or partners is part of the stboot implementation. It provides all information about firmware, bootloader and os components. 
 
