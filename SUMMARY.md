@@ -28,9 +28,9 @@
 * [How to set up production server](operator-guide/how-to-set-up-production-server.md)
 * [How to set up the netboot server?](operator-guide/how-to-set-up-the-netboot-server.md)
 
-## Documentation
+## Usage
 
-* [STBoot](documentation/stboot.md)
-* [STConfig Tool](documentation/stconfig-tool.md)
-* [STConfig & BootBall](documentation/stconfig-and-bootball.md)
+* [STBoot](usage/stboot.md)
+* [STConfig Tool](usage/stconfig-tool.md)
+* [STConfig & BootBall](usage/stconfig-and-bootball.md)
 

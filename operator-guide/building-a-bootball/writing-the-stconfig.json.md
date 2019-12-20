@@ -9,7 +9,7 @@
 
 ### Structure of STConfig.json
 
-See [STConfig & BootBall](../../documentation/stconfig-and-bootball.md)
+See [STConfig & BootBall](../../usage/stconfig-and-bootball.md)
 
 ### **Where to place STConfig.json**
 
