@@ -4,7 +4,6 @@
 
 ## Tech Stack Overview <a id="overview"></a>
 
-* [Concept and Use Cases](overview/concept-and-ideas.md)
 * [Manifest](overview/manifest/README.md)
   * [Provisioning Ritual](overview/manifest/1.-provisioning-ritual.md)
   * [Tamper Resistance](overview/manifest/3.-tamper-resistance.md)
