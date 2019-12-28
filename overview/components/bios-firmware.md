@@ -45,7 +45,7 @@ System Transparency requires firmware to be much as open-source as possible in o
 
 If you are trying to run system transparency on systems which aren't matching all requirements. Be aware that there can be security implications. Even so, it is possible to run system transparency on closed-source firmware.
 
-### What kind of firmware projects are supported by System Transparency?
+### What kind of firmware projects are supported by system transparency?
 
 At the moment the only supported firmware is [coreboot](https://www.coreboot.org) on x86 platforms. coreboot meets all requirements above. If you want to try out coreboot for system transparency on modern/cheap server platforms, try [supermicro systems listed here.](https://doc.coreboot.org/mainboard/supermicro/x11-lga1151-series/x11-lga1151-series.html)
 

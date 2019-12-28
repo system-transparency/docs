@@ -17,9 +17,9 @@ LinuxBoot has the following advantages over the most bootloader implementations:
 
 ### What has the bootloader todo with system transparency?
 
-System Transparency has its reference implementation as part of the LinuxBoot bootloader in the [u-root project.](https://github.com/u-root/u-root/tree/stboot) After the firmware is loaded, the bootloader is invoked:
+System Transparency has its reference implementation as part of the LinuxBoot bootloader in the [u-root project.](https://github.com/u-root/u-root/tree/stboot) After the firmware is loaded, the _stboot_ bootloader is invoked:
 
 ![LinuxBoot with stboot boot flow](../../.gitbook/assets/system-transparency-bootloader%20%281%29.svg)
 
-The main functionality provided to deliver transparency to end-users or partners is part of the stboot implementation. It provides all information about firmware, bootloader and os components. 
+The main functionality provided to deliver transparency to end-users or partners is part of the _stboot_ implementation. It provides all information about firmware, bootloader and os components. 
 
