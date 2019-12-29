@@ -24,7 +24,7 @@ description: A short introduction about server-side requirements
 
  
 
-Create a hash of the bootball artifact by using bootball config tool and split it after 32 bytes with a dot. 
+Create a hash of the bootball artifact by using bootball stconfig tool and split it after 32 bytes with a dot. 
 
 {% hint style="success" %}
 03b650a736663896177551f961dca548.79efd480cb8717f0a35637b863930a77
@@ -126,7 +126,7 @@ Certificate:
                     Timestamp : Dec 10 16:05:49.271 2019 GMT
                     Extensions: none
                     Signature : ecdsa-with-SHA256
-                                30:45:02:21:00:E8:CD:EB:8F:47:2E:2E:02:67:2F:C9:
+                                30:45:02:21:00:E8:C D:EB:8F:47:2E:2E:02:67:2F:C9:
                                 E3:F4:0D:18:57:3E:2B:8C:E2:D1:46:A5:4D:AB:ED:04:
                                 C0:20:39:73:49:02:20:31:38:EB:C9:6E:D7:38:61:14:
                                 51:7A:68:03:82:B7:29:BD:A5:D0:17:91:00:DA:C3:3E:

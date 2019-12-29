@@ -10,22 +10,24 @@ description: Welcome to System Transparency!
 
 {% tabs %}
 {% tab title="Operator" %}
-To administrate all components of Szstem Transparency check out the tooling repository.
+To administrate all components of System Transparency check out the tooling repository.
 
 ```text
 git clone https://github.com/system-transparency/system-transparency.git
 ```
 
-Then go ahead to the operator guide. Also refer to the documentation at the [tooling repository](https://github.com/system-transparency/system-transparency#system-transparency-tooling).
+Then go ahead to the [operator guide](operator-guide/get-system-transparency-up-and-running.md). Also refer to the documentation at the [tooling repository](https://github.com/system-transparency/system-transparency#system-transparency-tooling).
 {% endtab %}
 
 {% tab title="Developer" %}
-The System Transparency bootloader is part of the u-root project. Check out the repository and switch to the development branch.
+The System Transparency bootloader is part of the u-root project. Check out the repository and switch to the development branch. 
 
 ```text
 git clone https://github.com/u-root/u-root.git
 git checkout stboot
 ```
+
+Broes the code at `cmds/bootstboot` , `tools/stconfig` and `pkg/boot/stboot`. Learn about the concept pointed out in the [manifest](overview/manifest/)
 {% endtab %}
 
 {% tab title="User" %}
