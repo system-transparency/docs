@@ -4,7 +4,7 @@ description: Welcome to System Transparency!
 
 # Getting Started
 
-{% embed url="https://asciinema.org/a/265676" %}
+{% embed url="https://asciinema.org/a/294267" %}
 
 ### Where to start?
 
