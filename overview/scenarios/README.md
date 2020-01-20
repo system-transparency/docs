@@ -4,7 +4,7 @@ description: How to use System Transparency in the real world?
 
 # Scenarios
 
-We defined three real world scenarios which should at least support a high chance that we have covered a lot hardware systems. We categorized the scenarios based on the firmware with levels.
+We defined three real world scenarios which should at least support a high chance that we have covered a lot hardware systems. We categorized the scenarios based on the firmware with levels. With the lowest firmware level it is possible make the whole system stack transparent.
 
 ### FL3: Mixed firmware
 
