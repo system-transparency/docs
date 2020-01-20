@@ -24,7 +24,7 @@ Execution flow: GPT, efi partition, UEFI application
 
 Bootloaders: None, stboot can be packed with Linux kernel as EFI application
 
-Requirements: User mode Secure Boot key provisioning
+Requirements: Secure Boot user mode or OEM keys support stboot
 
 ### FL1: Open Source firmware
 
