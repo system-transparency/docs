@@ -34,7 +34,7 @@ Execution flow: Payload is executed in firmware
 
 Bootloaders: None, stboot and Linux kernel are part of coreboot payload
 
-Requirements: coreboot capable hardware with 12MB BIOS flash
+Requirements: coreboot capable hardware with 16MB BIOS flash
 
 
 
