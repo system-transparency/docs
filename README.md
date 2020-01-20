@@ -8,7 +8,7 @@ description: Welcome to System Transparency!
 
 ### What is System Transparency?
 
-Learn more about system transparency with the [manifest](overview/manifest/).
+Learn more about System Transparency with the [manifest](overview/manifest/) and [Kai's talk](https://media.ccc.de/v/36c3-139-system-transparency).
 
 ### Where to start?
 
@@ -39,4 +39,5 @@ Broes the code at `cmds/bootstboot` , `tools/stconfig` and `pkg/boot/stboot`. Le
 
 1. **System Transparency is the future** - [https://mullvad.net/en/blog/2019/6/3/system-transparency-future/](https://mullvad.net/en/blog/2019/6/3/system-transparency-future/) 
 2. **Coreboot ported to our first target platform** - [https://9esec.io/blog/first-modern-coreboot-server-platform/](https://9esec.io/blog/first-modern-coreboot-server-platform/)
+3. **System Transparency at the 36c3** - [https://media.ccc.de/v/36c3-139-system-transparency](https://media.ccc.de/v/36c3-139-system-transparency)
 
