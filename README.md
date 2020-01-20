@@ -6,6 +6,10 @@ description: Welcome to System Transparency!
 
 {% embed url="https://asciinema.org/a/294267" %}
 
+### What is System Transparency?
+
+Learn more about system transparency with the [manifest](overview/manifest/).
+
 ### Where to start?
 
 {% tabs %}
@@ -28,10 +32,6 @@ git checkout stboot
 ```
 
 Broes the code at `cmds/bootstboot` , `tools/stconfig` and `pkg/boot/stboot`. Learn about the concept pointed out in the [manifest](overview/manifest/)
-{% endtab %}
-
-{% tab title="User" %}
-Learn about System Transparence by reading the [Manifest](overview/manifest/).
 {% endtab %}
 {% endtabs %}
 
