@@ -6,10 +6,6 @@ description: Welcome to System Transparency!
 
 {% embed url="https://asciinema.org/a/294267" %}
 
-### What is System Transparency?
-
-Learn more about System Transparency with the [manifest](overview/manifest/) and [Kai's talk](https://media.ccc.de/v/36c3-139-system-transparency).
-
 ### Where to start?
 
 {% tabs %}
@@ -33,11 +29,14 @@ git checkout stboot
 
 Broes the code at `cmds/bootstboot` , `tools/stconfig` and `pkg/boot/stboot`. Learn about the concept pointed out in the [manifest](overview/manifest/)
 {% endtab %}
+
+{% tab title="User" %}
+Learn about System Transparence by reading the [Manifest](overview/manifest/).
+{% endtab %}
 {% endtabs %}
 
 ### Media / Talks
 
 1. **System Transparency is the future** - [https://mullvad.net/en/blog/2019/6/3/system-transparency-future/](https://mullvad.net/en/blog/2019/6/3/system-transparency-future/) 
 2. **Coreboot ported to our first target platform** - [https://9esec.io/blog/first-modern-coreboot-server-platform/](https://9esec.io/blog/first-modern-coreboot-server-platform/)
-3. **System Transparency at the 36c3** - [https://media.ccc.de/v/36c3-139-system-transparency](https://media.ccc.de/v/36c3-139-system-transparency)
 
