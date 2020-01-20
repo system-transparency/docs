@@ -1,2 +1,2 @@
-# UEFI firmware
+# FL2: UEFI firmware
 

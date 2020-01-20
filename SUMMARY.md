@@ -17,9 +17,9 @@
   * [Bootloader](overview/components/bootloader.md)
   * [Operating Systems](overview/components/operating-system.md)
 * [Scenarios](overview/scenarios/README.md)
-  * [Mixed firmware](overview/scenarios/mixed-firmware.md)
-  * [UEFI firmware](overview/scenarios/uefi-firmware.md)
-  * [Open Source firmware](overview/scenarios/open-source-firmware.md)
+  * [FL3: Mixed firmware](overview/scenarios/mixed-firmware.md)
+  * [FL2: UEFI firmware](overview/scenarios/uefi-firmware.md)
+  * [FL1: Open Source firmware](overview/scenarios/open-source-firmware.md)
 
 ## Operator guide
 
