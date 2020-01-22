@@ -33,7 +33,6 @@ The syntax of the file looks like this:
   }
 ```
 
-The structure of the items of `boot_configs` is part of the u-root project. We simply built a wrapper, which utilizes the given structure for the creation of our boot configuration. At the moment only  the first boot configuration will be used and multiboot capability is not fully supported. Therefore we suggest refraining from the use of multiboot related arguments.   
-  
+The structure of the items of `boot_configs` is part of the u-root project. We simply built a wrapper, which utilizes the given structure for the creation of our boot configuration. At the moment only  the first boot configuration will be used and multiboot capability is not fully supported.   
 For a successful boot process you have to provide a kernel, the kernel arguments and an initramfs.
 
