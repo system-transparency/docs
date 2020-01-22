@@ -16,7 +16,7 @@
   * [BIOS firmware](overview/components/bios-firmware.md)
   * [Bootloader](overview/components/bootloader.md)
   * [Operating Systems](overview/components/operating-system.md)
-* [Scenarios](overview/scenarios/README.md)
+* [Scenarios](overview/scenarios.md)
 
 ## Operator guide
 

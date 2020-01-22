@@ -10,7 +10,9 @@ STBoot is a custom bootloader provided by the u-root project. Its purpose is to 
 
 ## How does it work
 
-STBoot will be executed automatically and starts configuring the network interface of the server.  After downloading `stboot.ball` from the provisioning server, several validation checks will be made. If successful, stboot will execute the boot configuration including the final operating system. 
+STBoot will be executed automatically and starts configuring the network interface of the server.  After downloading `stboot.ball` from the provisioning server, several validation checks will be made. If successful, stboot will execute the boot configuration including the final operating system. The steps marked in grey are under development.
 
-![](../.gitbook/assets/stboot-1.svg)
+![try to open in new tap or window to completely enlarge the svg](../.gitbook/assets/stboot.svg)
+
+
 
