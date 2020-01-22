@@ -6,9 +6,14 @@ description: System Overview
 
 ![](../.gitbook/assets/stcomponents.svg)
 
-To get _System Transparency_ running on your hosts you need to set up a provisioning server. Your machine should run Linux in order to use all the tooling required.
+Since _System Transparency_ is distributed to multiple [components](../overview/components/) on different hardware, setting up the system involves:
 
-On Debian-based systems you'll need the following packages:
+1. Firmware deployment including [stboot bootloader](../usage/stboot.md) to the hosts.
+2. Configure a provisioning server and upload a [boot ball](../usage/stboot.ball.md) containing the operating system.
+
+The hosts will download the operating system during start up.
+
+The operator's machine should run Linux in order to use all the tooling required. On Debian-based systems you'll need the following packages:
 
 ```text
 apt install golang docker.io openssl git qemu-system-x86 wget sudo bison flex pkg-config libelf-dev libssl-dev bc libc6-i386 gcc-8 g++-8
