@@ -24,17 +24,14 @@
 ## Operator guide
 
 * [Get System Transparency up and running](operator-guide/get-system-transparency-up-and-running.md)
-* [How to set up the netboot server?](operator-guide/how-to-set-up-the-netboot-server.md)
-* [Building a BootBall](operator-guide/building-a-bootball/README.md)
-  * [Building Kernel and Initramfs](operator-guide/building-a-bootball/building-kernel-and-initramfs-for-bootball.md)
-  * [Writing STconfig.json](operator-guide/building-a-bootball/writing-the-stconfig.json.md)
-  * [Packing and Signing BootBall](operator-guide/building-a-bootball/packing-and-signing-bootball.md)
-* [How to set up qemu image for testing](operator-guide/how-to-set-up-qemu-image-for-testing.md)
-* [How to set up production server](operator-guide/how-to-set-up-production-server.md)
+* [The Provisioning Server](operator-guide/the-provisioning-server.md)
+* [Using the Tools](operator-guide/using-the-tools.md)
 
-## Tooling & Usage <a id="usage"></a>
+## Details <a id="usage"></a>
 
-* [STBoot](usage/stboot.md)
-* [STConfig Tool](usage/stconfig-tool.md)
-* [STConfig & BootBall](usage/stconfig-and-bootball.md)
+* [stboot.ball](usage/stboot.ball.md)
+* [stconfig.json](usage/stconfig-and-bootball.md)
+* [stconfig tool](usage/stconfig-tool.md)
+* [stboot bootloader](usage/stboot.md)
+* [hostvars.json](usage/hostvars.json.md)
 

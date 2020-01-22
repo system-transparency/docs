@@ -18,7 +18,7 @@ Requirements: CSM mode or BIOS
 
 ### FL2: UEFI firmware
 
-Your hardware runs closed source firmware UEFI firmware with the CSM mode disabled in the firmware settings. **This mode is currently not support by System Transparency**. Feel free to do a pull request and help us out!
+Your hardware runs closed source UEFI firmware with the CSM mode disabled in the firmware settings. **This mode is currently not support by System Transparency**. Feel free to do a pull request and help us out!
 
 Execution flow: GPT, efi partition, UEFI application
 
@@ -28,7 +28,7 @@ Requirements: Secure Boot user mode or OEM keys support stboot
 
 ### FL1: Open Source firmware
 
-Your hardware runs open source firmware. This can be [coreboot](www.coreboot.org), [TianoCore](www.tianocore.org), [slimmbootloader](https://slimbootloader.github.io/) or [u-boot](http://www.denx.de/wiki/U-Boot). System Transparency has specific [firmware requirements](../components/bios-firmware.md#what-has-the-firmware-todo-with-system-transparency). As far we know only coreboot is able to satisfy these requirements. That is why we only support coreboot firmware at the moment.
+Your hardware runs open source firmware. This can be [coreboot](www.coreboot.org), [TianoCore](www.tianocore.org), [slimmbootloader](https://slimbootloader.github.io/) or [u-boot](http://www.denx.de/wiki/U-Boot). System Transparency has specific firmware requirements. As far we know only coreboot is able to satisfy these requirements. That is why we only support coreboot firmware at the moment.
 
 Execution flow: Payload is executed in firmware
 

@@ -1,8 +1,16 @@
-# STBoot
+---
+description: The bootloader of a System Transparency host
+---
+
+# stboot bootloader
 
 ## What is STBoot
 
-STBoot is a custom bootloader provided by the u-root project. Its purpose is to be part of the firmware for the production server either deployed as payload for coreboot or as part of the image which will be deployed over dd-command on the server.
+STBoot is a custom bootloader provided by the u-root project. Its purpose is to be part of the firmware for the hosts. Depending on the [scenario](../overview/scenarios/) it either deployed as part of a disk image, as a UEFI application or as a coreboot payload.
 
-STBoot will be executed automatically and starts configuring the network interface of the server with a provided IP address or DHCP. After that the lastest BootBall from the provisioning server will be downloaded, unpacked and checked for validity. If all this is successful STBoot will execute the provided kernel from the BootBall with its kernel arguments and initramfs.
+## How does it work
+
+STBoot will be executed automatically and starts configuring the network interface of the server.  After downloading `stboot.ball` from the provisioning server several validation checks will be made. If successful, stboot will execute the boot configuration including the final operating system. 
+
+![](../.gitbook/assets/stboot-1.svg)
 

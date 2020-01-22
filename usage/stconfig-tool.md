@@ -1,8 +1,10 @@
-# STConfig Tool
+# stconfig tool
 
-The STConfig Tool provided by the u-root project enables the generation of a BootBall by a given stconfig.json.
+The `stconfig` tool provides functionality to create and manipulate a [boot ball](stboot.ball.md) based on a [~~configuration~~]().
 
-If you already downloaded the u-root git repository and system-transparency git repository, you only need to run the the following:
+Since the toole works closely with the [stboot bootloader](), its sources are hostet at the [u-root project](https://github.com/u-root/u-root/tree/stboot) \(stboot branch\)
+
+If you already downloaded the [u-root git repository](https://github.com/u-root/u-root/tree/stboot) and [system-transparency git repository](https://github.com/system-transparency/system-transparency), you only need to run the the following inside system-transparency:
 
 ```text
 ./system-transparency/stconfig/install_stconfig.sh
@@ -14,17 +16,17 @@ When installed the tool supports the following functionality:
 stconfig create <path/to/stconfig.json> [-o filename.ball]
 ```
 
-This creates a unsigned BootBall from a given STconfig.json
+This creates a unsigned `stboot.ball` from a given `stconfig.json`
 
 ```text
 stconfig sign <path/to/stboot.ball> <path/to/rsa-public-key> <path/to/rsa-cert>
 ```
 
-Sign signs a given BootBall cryptographically with the given key and certificate.
+Sign signs a given `stboot.ball`cryptographically with the given key and certificate.
 
 ```text
 stconfig unpack <path/to/stboot.ball>
 ```
 
-Unpack takes a given BootBall and unpacks it to a directory and tells you the path of the directory
+Unpack takes a given `stboot.ball` and unpacks it to a directory and tells you the path of the directory. It can be used to insept the `stboot.ball`
 

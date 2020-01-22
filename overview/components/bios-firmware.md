@@ -29,23 +29,22 @@ Normally the world of firmware is a place of legacy software development and doc
 
 System Transparency requires firmware to be much as open-source as possible in order to make the core root of trust transparent. It has the following firmware requirements:
 
-* Firmware must be open-source and publicly available.
+* Firmware must be open-source, publicly available and redistributable.
 * Firmware must be build reproducible from source code.
 * Firmware must support secure updates and failure-safety.
 * Firmware must be able to securely load a Linux kernel + initrd as bootloader.
 * Firmware must measure every loaded code/data before execution:
   * A trust anchor like a Trusted Platform Module or similar technology is required.
   * Measurements must be stored securely in the trust anchor.
-* Firmware must protect the core root of trust againt modification.
+* Firmware must protect the core root of trust against modification.
 * If the firmware needs to call blobs which can't be open-source:
   * The blobs must be redistributable.
   * The blobs must be publicly available.
-  * The blobs shouldn't call back into the OSF.
   * The blobs should provide the absolut minimum of functionality.
 
 If you are trying to run system transparency on systems which aren't matching all requirements. Be aware that there can be security implications. Even so, it is possible to run system transparency on closed-source firmware.
 
-### What kind of firmware projects are supported by system transparency?
+### What kind of firmware projects are supported by System Transparency?
 
 At the moment the only supported firmware is [coreboot](https://www.coreboot.org) on x86 platforms. coreboot meets all requirements above. If you want to try out coreboot for system transparency on modern/cheap server platforms, try [supermicro systems listed here.](https://doc.coreboot.org/mainboard/supermicro/x11-lga1151-series/x11-lga1151-series.html)
 
