@@ -1,8 +1,12 @@
-# stconfig.json
+---
+description: Documentation about STConfig in relation to BootBall
+---
 
-This configuration file is the template for the `stboot.ball`. It can contain multiple boot configurations. This file must be passed to the [stconfig tool](stconfig-tool.md).
+# STConfig & BootBall
 
-The syntax of the file looks like this:
+## What is a STConfig?
+
+Simply put, a STConfig is a json file which is used to create a BootBall. The Bootball will be uploaded to the provisioning server and downloaded from there by STBoot for executing on the production server. Syntax of the file looks like this:
 
 ```text
 {  
@@ -33,6 +37,9 @@ The syntax of the file looks like this:
   }
 ```
 
-The structure of the items of `boot_configs` is part of the u-root project. We simply built a wrapper, which utilizes the given structure for the creation of our boot configuration. At the moment only  the first boot configuration will be used and multiboot capability is not fully supported.   
-For a successful boot process you have to provide a kernel, the kernel arguments and an initramfs.
+The structure of a boot configuration is part of the u-root project. We simply built a wrapper, which utilizes the given structure for the creation of our boot configuration. At this moment STBoot only uses the first boot configuration given in a stconfig file and multiboot capability is not implemented yet. Therefore we suggest refraining from the use of multiboot related arguments.   
+  
+For a successful boot process you have to provide a kernel, the kernel arguments and an initramfs image for the given kernel.
+
+
 

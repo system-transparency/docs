@@ -6,7 +6,7 @@ description: The bootloader of a System Transparency host
 
 ## What is STBoot
 
-STBoot is a custom bootloader provided by the u-root project. Its purpose is to be part of the firmware for the hosts. Depending on the [scenario](../overview/scenarios.md) it either deployed as part of a disk image, as a UEFI application or as a coreboot payload.
+STBoot is a custom bootloader provided by the u-root project. Its purpose is to be part of the firmware for the hosts. Depending on the [scenario](../overview/scenarios/) it either deployed as part of a disk image, as a UEFI application or as a coreboot payload.
 
 ## How does it work
 
