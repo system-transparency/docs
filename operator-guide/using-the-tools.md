@@ -7,7 +7,7 @@ description: Description of the workflow
 Set up System Transparency includes the following steps:
 
 1. Generate signing keys and for all involved system administrators along with a corresponding  root certificate.
-2. Prepare the firmware for the provisioning server. Depending on the [scenario](../overview/scenarios/) this comes in different flavors.
+2. Prepare the firmware for the provisioning server. Depending on the [scenario](../overview/scenarios.md) this comes in different flavors.
 3. Create a [configuration file](../usage/hostvars.json.md) for the hosts.
 4. Build a reproducible Operating system with every user space program needed to be packed into the kernel and initramfs respectively.
 5. Build the `u-root` command.
