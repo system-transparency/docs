@@ -1,8 +1,8 @@
 # stconfig tool
 
-The `stconfig` tool provides functionality to create and manipulate a [boot ball](stboot.ball.md) based on a [~~configuration~~]().
+The `stconfig` tool provides functionality to create and manipulate a [boot ball](stboot.ball.md) based on a [configuration](stconfig-and-bootball.md).
 
-Since the toole works closely with the [stboot bootloader](), its sources are hostet at the [u-root project](https://github.com/u-root/u-root/tree/stboot) \(stboot branch\)
+Since the toole works closely with the [stboot bootloader](stboot.md), its sources are hostet at the [u-root project](https://github.com/u-root/u-root/tree/stboot) \(stboot branch\)
 
 If you already downloaded the [u-root git repository](https://github.com/u-root/u-root/tree/stboot) and [system-transparency git repository](https://github.com/system-transparency/system-transparency), you only need to run the the following inside system-transparency:
 
