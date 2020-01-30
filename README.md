@@ -12,6 +12,10 @@ System transparency is aimed at facilitating trust for the components of a syste
 
 Learn more about System Transparency with a [talk about the basic idea](https://media.ccc.de/v/36c3-139-system-transparency) and the [manifest](overview/manifest/).
 
+### Join the community!
+
+We are using our own Slack chat. [Join us!](https://communityinviter.com/apps/system-transparency/join)
+
 ### Where to start?
 
 {% tabs %}
