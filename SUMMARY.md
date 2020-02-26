@@ -31,4 +31,7 @@
 * [stconfig tool](usage/stconfig-tool.md)
 * [stboot bootloader](usage/stboot.md)
 * [hostvars.json](usage/hostvars.json.md)
+* [https-root-certificates.pem](usage/https-root-certificates.pem.md)
+* [provisioning-servers.json](usage/provisioning-servers.json.md)
+* [ntp-servers.json](usage/ntp-servers.json.md)
 
