@@ -1,6 +1,6 @@
 # https-root-certificates.pem
 
-Certificates to establish a HTTPS connection to the provisioning server. Multiple certificates can be placed inside the file. Everything outside`-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----` will be ignored. So comments can be addeD as well. An example could look like this:
+This file resides on the data partition of the host and contains certificates to establish a HTTPS connection to the provisioning server. Multiple certificates can be placed inside the file. Everything outside`-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----` will be ignored. So comments can be addeD as well. An example could look like this:
 
 ```text
 LetsEncrypt Certificate

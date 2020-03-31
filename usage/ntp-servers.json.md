@@ -1,6 +1,6 @@
 # ntp-servers.json
 
-List of servers to use for NTP during time validation. Put the servers into a JSON array like this:
+This file resides on the data partition of the host and contains a list of servers to use for NTP during time validation. Put the servers into a JSON array like this:
 
 ```text
 [

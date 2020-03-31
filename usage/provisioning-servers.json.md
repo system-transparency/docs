@@ -1,6 +1,6 @@
 # provisioning-servers.json
 
-List of servers the stboot bootloader will use to download the [bootball](stboot.ball.md). Put the servers into a JSON array like this:
+This file resides on the data partition of the host and contains a list of servers the stboot bootloader will use to download the [bootball](stboot.ball.md). Put the servers into a JSON array like this:
 
 ```text
 [
