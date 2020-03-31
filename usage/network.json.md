@@ -2,7 +2,7 @@
 
 This file stores the network configuration for the host and resides on the data partition of the host. The data is provided as a JSON object.
 
-IP addresses must be in the form `<ip>/<netmask>` , a valid configuration requires `host_ip` and `gateway` to be set, `dns` is optional. If all values are set to `""`, DHCP is used for network configuration.
+A valid configuration requires `host_ip` and `gateway` to be set in the form `<ip>/<netmask>`, `dns` is optional. If all values are set to `""`, DHCP is used for network configuration.
 
 ```text
 {
