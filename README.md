@@ -10,7 +10,7 @@ System transparency is aimed at facilitating trust for the components of a syste
 
 ### What is System Transparency?
 
-Learn more about System Transparency with a [talk about the basic idea](https://media.ccc.de/v/36c3-139-system-transparency) and the [manifest](overview/manifest/).
+Learn more about System Transparency with a [talk about the basic idea](https://media.ccc.de/v/36c3-139-system-transparency) and the [manifest](overview/manifest.md).
 
 ### Join the community!
 
@@ -20,13 +20,11 @@ We are using our own Slack chat. [Join us!](https://communityinviter.com/apps/sy
 
 {% tabs %}
 {% tab title="Operator" %}
-To administrate all components of System Transparency check out the tooling repository.
+To administrate all components of System Transparency check out the tooling repository. This is still under development.
 
 ```text
 git clone https://github.com/system-transparency/system-transparency.git
 ```
-
-Then go ahead to the [operator guide](operator-guide/get-system-transparency-up-and-running.md). Also refer to the documentation at the [tooling repository](https://github.com/system-transparency/system-transparency#system-transparency-tooling).
 {% endtab %}
 
 {% tab title="Developer" %}
@@ -37,7 +35,7 @@ git clone https://github.com/u-root/u-root.git
 git checkout stboot
 ```
 
-Browse the code at `cmds/bootstboot` , `tools/stconfig` and `pkg/boot/stboot`. Learn about the concept pointed out in the [manifest](overview/manifest/)
+Browse the code at `cmds/bootstboot` , `tools/stconfig` and `pkg/boot/stboot`. Learn about the concept pointed out in the [manifest](overview/manifest.md)
 {% endtab %}
 {% endtabs %}
 
